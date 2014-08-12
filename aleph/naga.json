@@ -1,0 +1,82 @@
+{
+	"name": {
+		"es": "Nagas",
+		"en": "Nagas"
+	}, 
+	"mov": {
+		"in": [4, 4],
+		"cm": [10, 10]
+	},
+	"logo_url": "",
+	"thumbnail_url": "", 
+	"references": ["280803-0228"],
+	"description": {
+		"es": "Tropa con Entrenamiento Especial",
+		"en": ""
+	},
+	"type": "skirmisher",
+	"cc": 13,
+	"bs": 12,
+	"ph": 12,
+	"wip": 14,
+	"arm": 1,
+	"bts": 0,
+	"w": 1,
+	"ava": 2,
+	"instruction": "regular",
+	"skills":["ch_camouflage", "inflitration", "v_dogged"],
+	"back_up": "cube_2",
+	"options": [
+		{ 
+			"option_name": {
+				"en": "Naga",
+				"es": "Naga"
+			},
+			"bs_weapons": ["combi_rifle", "antipersonal_mines"],
+			"cc_weapons": ["pistol", "knife"],
+			"swc": 0,
+			"cost": 26
+		},
+		{ 
+			"option_name": {
+				"en": "Naga",
+				"es": "Naga"
+			},
+			"bs_weapons": ["combi_rifle", "monofilament_mines"],
+			"cc_weapons": ["pistol", "knife"],
+			"swc": 0,
+			"cost": 32
+		},
+		{ 
+			"option_name": {
+				"en": "Naga",
+				"es": "Naga"
+			},
+			"bs_weapons": ["multi_sniper_rifle"],
+			"cc_weapons": ["pistol", "knife"],
+			"swc": 1.5,
+			"cost": 39
+		},
+		{ 
+			"option_name": {
+				"en": "Naga",
+				"es": "Naga"
+			},
+			"bs_weapons": ["boarding_shotgun", "antipersonal_mines"],
+			"cc_weapons": ["pistol", "knife"],
+			"skills": ["minelayer"],
+			"swc": 0.5,
+			"cost": 27
+		},
+		{ 
+			"option_name": {
+				"en": "Naga Hacker",
+				"es": "Naga Hacker"
+			},
+			"bs_weapons": ["combi_rifle"],
+			"cc_weapons": ["pistol", "knife"],
+			"equipment": ["hacking_device"],
+			"swc": 0.5,
+			"cost": 37
+		}]
+}

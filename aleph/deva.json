@@ -1,0 +1,90 @@
+{
+	"name": {
+		"es": "Funcionarios Deva",
+		"en": ""
+	}, 
+	"mov": {
+		"in": [4, 4],
+		"cm": [10, 10]
+	}, 
+	"references": ["2800825-0356"],
+	"description": {
+		"es": "Tropas Veteranas",
+		"en": ""
+	},
+	"type": "light",
+	"cc": 14,
+	"bs": 12,
+	"ph": 11,
+	"wip": 15,
+	"arm": 2,
+	"bts": -3,
+	"w": 1,
+	"ava": 4,
+	"instruction": "regular",
+	"skills":["no_wound_incapacitation"],
+	"back_up": "cube_2",
+	"options": [
+		{ 
+			"option_name": {
+				"en": "DEVA"
+			},
+			"bs_weapons": ["combi_rifle", "nano_pulser"],
+			"cc_weapons": ["pistol", "knife"],
+			"swc": 0,
+			"cost": 23
+		},
+		{ 
+			"option_name": {
+				"en": "DEVA Synchronized"
+			},
+			"bs_weapons": ["combi_rifle", "nano_pulser"],
+			"cc_weapons": ["pistol", "knife"],
+			"equipment": ["devabot"],
+			"skills": ["ghost_synchronized"],
+			"swc": 0,
+			"cost": 27
+		},
+		{ 
+			"option_name": {
+				"en": "DEVA Hacker"
+			},
+			"bs_weapons": ["combi_rifle", "nano_pulser"],
+			"cc_weapons": ["pistol", "knife"],
+			"equipment": ["hacking_device"],
+			"swc": 0.5,
+			"cost": 35
+		},
+		{ 
+			"option_name": {
+				"en": "DEVA Sensor"
+			},
+			"bs_weapons": ["combi_rifle", "nano_pulser"],
+			"cc_weapons": ["pistol", "knife"],
+			"equipment": ["sensor"],
+			"swc": 1,
+			"cost": 26
+		},
+		{ 
+			"option_name": {
+				"en": "DEVA Spitfire"
+			},
+			"bs_weapons": ["spitfire", "nano_pulser"],
+			"cc_weapons": ["pistol", "knife"],
+			"equipment": ["visor_n2"],
+			"swc": 1,
+			"cost": 34
+		},
+
+		{ 
+			"option_name": {
+				"en": "DEVA Lieutenant"
+			},
+			"bs_weapons": ["combi_rifle", "nano_pulser"],
+			"cc_weapons": ["pistol", "knife"],
+			"equipment": ["devabot"],
+			"skills": ["ghost_synchronized"],
+			"swc": 0,
+			"cost": 26
+		}]
+}
